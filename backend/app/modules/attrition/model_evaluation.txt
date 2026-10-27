@@ -1,0 +1,29 @@
+WORKFORCE AI PRO - MODEL EVALUATION
+==================================
+Dataset: Synthetic prototype data
+Total rows: 20
+Training rows: 15
+Testing rows: 5
+Features: satisfaction, overtime, years_at_company, monthly_income
+Accuracy: 60.00%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+No Attrition       0.67      0.67      0.67         3
+   Attrition       0.50      0.50      0.50         2
+
+    accuracy                           0.60         5
+   macro avg       0.58      0.58      0.58         5
+weighted avg       0.60      0.60      0.60         5
+
+Confusion Matrix (rows=actual, columns=predicted):
+[[2 1]
+ [1 1]]
+
+LIMITATIONS:
+- Dataset contains only 20 synthetic records.
+- Test set contains only 5 records.
+- Metrics do not establish real-world performance.
+- Predictions must not be used to make employment decisions.
+- Validate with suitable representative data before real use.

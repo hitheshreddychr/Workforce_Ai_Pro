@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+python-jose[cryptography]
+pwdlib[argon2]
+python-multipart
+pandas
+scikit-learn
+email-validator
+
+python-dotenv
